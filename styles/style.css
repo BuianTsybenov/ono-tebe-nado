@@ -1,8 +1,8 @@
 /* место для вашего кода */
 .header {
     display: grid;
-    grid-template-columns: 1fr 148px 1fr;
-    padding: 92px 62px 96px 24px;
+    grid-template-columns: 1fr 136px 1fr;
+    padding: 92px 24px 96px 26px;
     background-color: #fff;
     width: 100%;
     max-width: 1052px;
@@ -15,12 +15,11 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 21.13px;
-    gap: 30px;
+    gap: 34px;
     padding-top: 44px;
-    padding-left: 2px;
 }
 
-.header-link {
+.header-link_active {
     text-decoration: none;
 }
 
@@ -29,8 +28,6 @@
     margin: auto;
     width: 136px;
     height: 105px;
-    position: relative;
-    left: 19px;
 }
 
 .header_links-list-item_no-bullet{
@@ -41,7 +38,6 @@
     list-style: circle;
     letter-spacing: 1%;
     text-underline-offset: 4px;
-    padding-left: 4px;
 }
 
 .address {
@@ -53,7 +49,8 @@
   line-height: 24.3px;
   letter-spacing: 1%;   
   justify-self: end;  
-  align-self: end;     
+  align-self: end;   
+  padding-right: 36px; 
 }
 
 .cover{
@@ -82,7 +79,7 @@
     font-weight: 700;
     font-size: 100px;
     line-height: 115px;
-    padding: 165px 50px 147px;
+    padding: 165px 50px 135px;
 }
 
 .letter-spacing-extended {
@@ -115,19 +112,18 @@
 
 .cover_description {
     display: flex;
-    gap: 79px;
+    justify-content: space-between;
     color: #fff;
-    font-family: Raleway, sans-serif;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 28px;
-    word-spacing: 17px;
     text-transform: uppercase;
-    padding-left: 78px;
+    padding: 0px 50px 0px 78px;
 }
 
-.cover_description-text-second {
-    word-spacing: 18px; 
+.cover_description-text {
+    font-size: 22px;
+    line-height: 28px;
+    word-spacing: 19px;
+    font-weight: 400;
+    padding-top: 12px;
 }
 
 .bet-button {
@@ -141,8 +137,6 @@
     border: 2px solid #fff;
     min-height: 51px;
     min-width: 256px;
-    position: relative;
-    top: -12px;  
 }
 
 .lots {
@@ -168,7 +162,6 @@
 }
 
 .card {
-    width: 334px;
     min-height: 563px;
     display: flex;
     position: relative;
@@ -305,7 +298,7 @@
     font-weight: 400;
     line-height: 21.13px;
     text-align: center;
-    padding-left: 43px;
+    padding-left: 5px;
     text-underline-offset: 3px;
     padding-top: 1px;
 }
